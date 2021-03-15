@@ -43,3 +43,83 @@ java.io.FileNotFoundException: C:\Users\u722912\.m2\repository\.cache\m2e\1.7.0\
 2021-03-15 09:46:43,990 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-15 09:46:43,990 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
 2021-03-15 09:46:43,991 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 09:46:43,991 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:09:16,205 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:09:16,206 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:09:16,207 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:09:16,207 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:09:48,366 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:09:48,366 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:09:48,368 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:09:48,368 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:11:22,731 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:11:22,731 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:11:22,733 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:11:22,733 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:12:00,546 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:12:00,548 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:12:00,551 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:12:00,551 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:30:30,380 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:30:30,380 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:30:30,382 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:30:30,382 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:32:15,670 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:32:15,670 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:32:15,674 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:32:15,677 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:34:12,544 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:34:12,545 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:34:12,546 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:34:12,546 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:38:47,167 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:38:47,168 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:38:47,169 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:38:47,169 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:38:56,530 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:38:56,531 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:38:56,532 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:38:56,532 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:39:10,747 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:10,748 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:39:10,749 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:10,749 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:39:19,049 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:19,049 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:39:19,050 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:19,050 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:39:34,524 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:34,524 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:39:34,525 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:34,526 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:39:42,117 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:42,117 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:39:42,118 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:42,118 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:39:49,653 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:49,654 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:39:49,657 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:39:49,658 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:49:50,463 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:49:50,463 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:49:50,464 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:49:50,464 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:50:00,074 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:00,074 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:50:00,077 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:00,077 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:50:07,044 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:07,044 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:50:07,046 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:07,047 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:50:11,704 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:11,705 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:50:11,707 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:11,707 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:50:44,318 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:44,318 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:50:44,320 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:44,321 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-15 10:50:56,545 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-15 10:50:56,545 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-15 10:50:56,547 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

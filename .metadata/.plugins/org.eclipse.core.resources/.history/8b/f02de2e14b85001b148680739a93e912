@@ -1,0 +1,36 @@
+package com.string.calculator;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		int result = add("1,2,3");
+		System.out.println(result);
+	}
+
+	public static int add(String numbers) {
+
+		if (numbers.equals("")) {
+			return 0;
+		} else {
+			// Regex to split the string with delimiter ","
+			String delimiter = ",";
+			String numList[] = splitNumbers(numbers, delimiter + "|\n");
+			return sum(numList);
+		}
+
+	}
+
+	private static String[] splitNumbers(String numbers, String string) {
+
+		return null;
+	}
+
+	private static int sum(String[] numList) {
+
+		return 0;
+	}
+
+}

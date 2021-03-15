@@ -1,6 +1,9 @@
 package com.string.calculator;
 
-
+/**
+ * Hello world!
+ *
+ */
 public class App {
 	public static void main(String[] args) {
 		int result = add("6,1,2");
@@ -17,6 +20,7 @@ public class App {
 			String numList[] = numbers.split(delimiter+"|\n");
 			return sum(numList);
 		}
+
 	}
 
 	private static int sum(String[] numList) {
