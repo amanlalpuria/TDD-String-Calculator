@@ -14,16 +14,4 @@ public class AppTest {
 		//Test for Empty String
 		assertEquals(0, App.add(""));
 	}
-	
-	@Test
-	public void testOneString() {
-		//Test for One String
-		assertEquals(1, App.add("1"));
-	}
-	
-	@Test
-	public void testTwoString() {
-		//Test for Two String
-		assertEquals(3, App.add("1,2"));
-	}
 }

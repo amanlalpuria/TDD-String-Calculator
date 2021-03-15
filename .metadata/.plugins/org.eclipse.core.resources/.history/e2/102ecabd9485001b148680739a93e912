@@ -17,13 +17,13 @@ public class AppTest {
 	
 	@Test
 	public void testOneString() {
-		//Test for One String
+		//Test for Empty String
 		assertEquals(1, App.add("1"));
 	}
 	
 	@Test
 	public void testTwoString() {
-		//Test for Two String
+		//Test for Empty String
 		assertEquals(3, App.add("1,2"));
 	}
 }

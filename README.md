@@ -21,7 +21,7 @@ Its a Test Driven Development for the String Calculator
     - Remember to refactor after each passing test
 
     Created a add function which splits input to String array and pass to another function sum to calculate the sum.
-    
+
     ```java
     private static int add(String numbers) {
 
@@ -43,5 +43,26 @@ Its a Test Driven Development for the String Calculator
 			numbersSum += Integer.parseInt(number);
 		}
 		return numbersSum;
+	}
+    ```
+
+    Test Case
+    ```Java
+    @Test
+	public void testEmptyString() {
+		//Test for Empty String
+		assertEquals(0, App.add(""));
+	}
+	
+	@Test
+	public void testOneString() {
+		//Test for One String
+		assertEquals(1, App.add("1"));
+	}
+	
+	@Test
+	public void testTwoString() {
+		//Test for Two String
+		assertEquals(3, App.add("1,2"));
 	}
     ```
