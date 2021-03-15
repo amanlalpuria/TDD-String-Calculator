@@ -1,0 +1,21 @@
+package com.string.calculator;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import com.string.calculator.App;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest {
+	
+	public static void main(String args[]) {
+		org.junit.runner.JUnitCore.main("com.string.calculator.AppTest");
+	}
+
+	@Test
+	public void testEmptyString() {
+		//Test for Empty String
+		assertEquals(0, App.add(""));
+	}
+}

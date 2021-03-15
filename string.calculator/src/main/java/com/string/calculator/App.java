@@ -1,13 +1,12 @@
 package com.string.calculator;
 
-
 public class App {
 	public static void main(String[] args) {
 		int result = add("6,1,2");
 		System.out.println(result);
 	}
 
-	private static int add(String numbers) {
+	static int add(String numbers) {
 
 		if (numbers.equals("")) {
 			return 0;

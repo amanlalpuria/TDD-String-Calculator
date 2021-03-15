@@ -1,0 +1,31 @@
+package com.string.calculator;
+
+public class App {
+	public static void main(String[] args) {
+		int result = add("6,1,2");
+		System.out.println(result);
+	}
+
+	private static int add(String numbers) {
+
+		if (numbers.equals("")) {
+			return 0;
+		} else {
+			// Regex to split the string with delimiter ","
+			String delimiter = ",";
+			String numList[] = numbers.split(delimiter+"|\n");
+			return sum(numList);
+		}
+	}
+
+	private static int sum(String[] numList) {
+
+		int numbersSum = 0;
+
+		for (String number : numList) {
+			numbersSum += Integer.parseInt(number);
+		}
+		return numbersSum;
+	}
+
+}
