@@ -277,3 +277,8 @@ java.io.FileNotFoundException: C:\Users\u722912\.m2\repository\.cache\m2e\1.7.0\
 2021-03-16 10:54:11,217 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-16 10:54:11,218 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
 2021-03-16 10:54:11,221 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 10:54:11,221 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
+2021-03-16 10:56:42,981 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 10:56:42,981 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\main\resources
+2021-03-16 10:56:42,981 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-16 10:56:42,981 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Defect\TDD\TDD-String-Calculator\string.calculator\src\test\resources
