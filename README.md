@@ -2,6 +2,7 @@
 Its a Test Driven Development for the String Calculator 
 
 ## Task
+
 1. Create a simple String calculator with a method signature:
 
     -------------------------------------------
@@ -66,3 +67,16 @@ Its a Test Driven Development for the String Calculator
 		assertEquals(3, App.add("1,2"));
 	}
     ```
+
+
+2. Allow the Add method to handle an unknown amount of numbers
+
+    ```java
+    @Test
+    public void testThreeNumbers(){
+		//Allow the Add method to handle an unknown amount of numbers
+    	assertEquals(6, App.add("1,2,3"));
+    }
+    ```
+
+

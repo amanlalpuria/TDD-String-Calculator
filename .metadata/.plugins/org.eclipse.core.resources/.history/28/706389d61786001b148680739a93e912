@@ -26,10 +26,4 @@ public class AppTest {
 		//Test for Two String
 		assertEquals(3, App.add("1,2"));
 	}
-	
-	@Test
-    public void testThreeNumbers(){
-		//Allow the Add method to handle an unknown amount of numbers
-    	assertEquals(6, App.add("1,2,3"));
-    }
 }
