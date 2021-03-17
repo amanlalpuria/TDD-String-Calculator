@@ -176,3 +176,43 @@ if there are multiple negatives, show all of them in the exception message.
 		}
 	}
 	```
+
+6. Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
+
+	Updated sum function for number greater than 1000
+	```java
+	private static int sum(String[] numList) {
+
+		int numbersSum = 0;
+		String negativeNumbers = "";
+
+		for (String number : numList) {
+			if (negativeCheck(number)) {
+				if (negativeNumbers.equals(""))
+					negativeNumbers = number;
+				else
+					negativeNumbers += ("," + number);
+			} else if (Integer.parseInt(number) < 1000) {
+				numbersSum += Integer.parseInt(number);
+			}
+		}
+		if (!negativeNumbers.equals(""))
+
+		{
+			throw new IllegalArgumentException("Negatives not allowed: " + negativeNumbers);
+		}
+
+		return numbersSum;
+	}
+	```
+
+	Test case for the same
+	```java
+	@Test
+	public void testNumberGreaterThousand() {
+		// Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
+		assertEquals(2, App.add("1000,2"));
+	}
+	```
+
+

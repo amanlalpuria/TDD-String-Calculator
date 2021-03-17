@@ -41,7 +41,7 @@ public class App {
 					negativeNumbers += ("," + number);
 			} else if (Integer.parseInt(number) < 1000) {
 				numbersSum += Integer.parseInt(number);
-			}
+			} 
 		}
 		if (!negativeNumbers.equals(""))
 

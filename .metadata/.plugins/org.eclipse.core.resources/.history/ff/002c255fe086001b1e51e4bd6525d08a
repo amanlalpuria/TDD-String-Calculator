@@ -62,10 +62,4 @@ public class AppTest {
 			assertEquals(e.getMessage(), "Negatives not allowed: -1,-3,-5");
 		}
 	}
-	
-	@Test
-	public void testNumberGreaterThousand() {
-		// Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
-		assertEquals(2, App.add("1000,2"));
-	}
 }
