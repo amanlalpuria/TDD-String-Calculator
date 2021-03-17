@@ -31,22 +31,14 @@ public class App {
 	private static int sum(String[] numList) {
 
 		int numbersSum = 0;
-		String negativeNumbers = "";
 
 		for (String number : numList) {
 			if (negativeCheck(number)) {
-				if(negativeNumbers.equals(""))
-					negativeNumbers = number;
-        		else
-        			negativeNumbers += ("," + number);
+
 			} else {
 				numbersSum += Integer.parseInt(number);
 			}
 		}
-		if (!negativeNumbers.equals("")) {
-			throw new IllegalArgumentException("Negatives not allowed: " + negativeNumbers);
-		}
-
 		return numbersSum;
 	}
 

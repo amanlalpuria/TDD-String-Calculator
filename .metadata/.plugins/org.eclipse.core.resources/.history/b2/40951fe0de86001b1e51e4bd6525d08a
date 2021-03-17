@@ -46,7 +46,7 @@ public class AppTest {
 	}
 
 	@Test
-	public void testNegativeNumber() {
+	public void testNegativeNumver() {
 		try {
 			App.add("-1,2");
 		} catch (IllegalArgumentException e) {
@@ -54,12 +54,4 @@ public class AppTest {
 		}
 	}
 
-	@Test
-	public void testMultipleNegativeNumber() {
-		try {
-			App.add("-1,2,-3,4,-5");
-		} catch (IllegalArgumentException e) {
-			assertEquals(e.getMessage(), "Negatives not allowed: -1,-3,-5");
-		}
-	}
 }

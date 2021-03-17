@@ -35,18 +35,15 @@ public class App {
 
 		for (String number : numList) {
 			if (negativeCheck(number)) {
-				if(negativeNumbers.equals(""))
-					negativeNumbers = number;
-        		else
-        			negativeNumbers += ("," + number);
-			} else {
+				negativeNumbers += number;
+							} else {
 				numbersSum += Integer.parseInt(number);
 			}
 		}
-		if (!negativeNumbers.equals("")) {
+		if(null!=negativeNumbers){
 			throw new IllegalArgumentException("Negatives not allowed: " + negativeNumbers);
 		}
-
+		
 		return numbersSum;
 	}
 

@@ -120,3 +120,59 @@ Its a Test Driven Development for the String Calculator
     	assertEquals(3, App.add("//;\n1;2"));
     }
 	```
+
+5. Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed. 
+if there are multiple negatives, show all of them in the exception message.
+
+	Negative check added in add function
+
+	```java
+	private static int sum(String[] numList) {
+
+		int numbersSum = 0;
+		String negativeNumbers = "";
+
+		for (String number : numList) {
+			if (negativeCheck(number)) {
+				if(negativeNumbers.equals(""))
+					negativeNumbers = number;
+        		else
+        			negativeNumbers += ("," + number);
+			} else {
+				numbersSum += Integer.parseInt(number);
+			}
+		}
+		if (!negativeNumbers.equals("")) {
+			throw new IllegalArgumentException("Negatives not allowed: " + negativeNumbers);
+		}
+
+		return numbersSum;
+	}
+
+	private static boolean negativeCheck(String number) {
+		if (Integer.parseInt(number) > 0)
+			return false;
+		return true;
+	}
+	```
+
+	Test case for single and multiple negative number
+	```java
+	@Test
+	public void testNegativeNumber() {
+		try {
+			App.add("-1,2");
+		} catch (IllegalArgumentException e) {
+			assertEquals(e.getMessage(), "Negatives not allowed: -1");
+		}
+	}
+
+	@Test
+	public void testMultipleNegativeNumber() {
+		try {
+			App.add("-1,2,-3,4,-5");
+		} catch (IllegalArgumentException e) {
+			assertEquals(e.getMessage(), "Negatives not allowed: -1,-3,-5");
+		}
+	}
+	```

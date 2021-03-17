@@ -59,7 +59,7 @@ public class AppTest {
 		try {
 			App.add("-1,2,-3,4,-5");
 		} catch (IllegalArgumentException e) {
-			assertEquals(e.getMessage(), "Negatives not allowed: -1,-3,-5");
+			assertEquals(e.getMessage(), "Negatives not allowed: -1");
 		}
 	}
 }
