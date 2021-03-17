@@ -33,5 +33,10 @@ public class AppTest {
     	assertEquals(6, App.add("1,2,3"));
     }
 	
+	@Test
+    public void testNewLine(){
+		// new lines between numbers
+    	assertEquals(6, App.add("1\n2,3"));
+    }
 	
 }
