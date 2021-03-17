@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="string.calculator" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.string.calculator.AppTest" time="0.002">
+    <testcase name="testEmptyString" classname="com.string.calculator.AppTest" time="0.002"/>
+    <testcase name="testThreeNumbers" classname="com.string.calculator.AppTest" time="0.0"/>
+    <testcase name="testTwoString" classname="com.string.calculator.AppTest" time="0.0"/>
+    <testcase name="testNewLine" classname="com.string.calculator.AppTest" time="0.0"/>
+    <testcase name="testOneString" classname="com.string.calculator.AppTest" time="0.0"/>
+  </testsuite>
+</testrun>

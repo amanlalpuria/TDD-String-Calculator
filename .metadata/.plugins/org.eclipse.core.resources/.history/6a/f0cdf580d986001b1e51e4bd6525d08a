@@ -13,13 +13,8 @@ public class App {
 		} else {
 			// Regex to split the string with delimiter ","
 			String delimiter = ",";
-			
-			// The if looks for the extra delimeters
-			// The condition is after // if there is anything and if after that there is a next line
-			// Skip the characters and select the numbers
 			if(numbers.matches("//(.*)\n(.*)")){
-				delimiter = Character.toString(numbers.charAt(2));
-				
+				delimiter = Character.toString(text.charAt(2));
 				numbers = numbers.substring(4);
 			}
 			String numList[] = numbers.split(delimiter+"|\n");

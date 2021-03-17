@@ -83,6 +83,40 @@ Its a Test Driven Development for the String Calculator
     1. the following input is ok: “1\n2,3” (will equal 6)
     2. the following input is NOT ok: “1,\n” (not need to prove it - just clarifying)
 
+	For this case split is used 
+	```java
+	String numList[] = numbers.split(delimiter+"|\n");
+	```
+	Test case 
+	```java
+	@Test
+    public void testNewLine(){
+		// new lines between numbers
+    	assertEquals(6, App.add("1\n2,3"));
+    }
+	```
 
+4. Support different delimiters
+	1. to change a delimiter, the beginning of the string will contain a separate line that looks like this: “//[delimiter]\n[numbers…]” for example “//;\n1;2” should return three where the default delimiter is ‘;’ .
+	2. the first line is optional. all existing scenarios should still be supported
 
+	Added a delimeter filter
+	```java
+	// The if looks for the extra delimeters
+	// The condition is after // if there is anything and if after that there is a next line
+	// Skip the characters and select the numbers
+	if(numbers.matches("//(.*)\n(.*)")){
+		delimiter = Character.toString(numbers.charAt(2));
+		numbers = numbers.substring(4);
+	}
+	```
 
+	Testcase
+
+	```java
+	@Test
+    public void testDifferentDelimeter(){
+		// new lines between numbers
+    	assertEquals(3, App.add("//;\n1;2"));
+    }
+	```

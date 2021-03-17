@@ -39,11 +39,4 @@ public class AppTest {
     	assertEquals(6, App.add("1\n2,3"));
     }
 	
-	@Test
-    public void testDifferentDelimeter(){
-		// new lines between numbers
-    	assertEquals(3, App.add("//;\n1;2"));
-    }
-	
-	 
 }

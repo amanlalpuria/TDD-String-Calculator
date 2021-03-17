@@ -42,7 +42,7 @@ public class AppTest {
 	@Test
     public void testDifferentDelimeter(){
 		// new lines between numbers
-    	assertEquals(3, App.add("//;\n1;2"));
+    	assertEquals(6, App.add("//;\n1;2//;\n1;2"));
     }
 	
 	 
