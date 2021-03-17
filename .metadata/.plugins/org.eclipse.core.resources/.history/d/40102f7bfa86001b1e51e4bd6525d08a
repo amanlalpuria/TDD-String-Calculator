@@ -21,6 +21,7 @@ public class App {
 			if (numbers.matches("//(.*)\n(.*)")) {
 				delimiter = Character.toString(numbers.charAt(2));
 				if (delimiter.equals("[")) {
+					// int closingBracketIndex = closingBracketIndex(numbers);
 					int closingBracketIndex = numbers.indexOf("]");
 					delimiter = numbers.substring(3, closingBracketIndex);
 				}

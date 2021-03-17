@@ -20,12 +20,8 @@ public class App {
 			// Skip the characters and select the numbers
 			if (numbers.matches("//(.*)\n(.*)")) {
 				delimiter = Character.toString(numbers.charAt(2));
-				if (delimiter.equals("[")) {
-					int closingBracketIndex = numbers.indexOf("]");
-					delimiter = numbers.substring(3, closingBracketIndex);
-				}
-				int nextLineIndex = numbers.indexOf("\n");
-				numbers = numbers.substring(nextLineIndex);
+
+				numbers = numbers.substring(4);
 			}
 			String numList[] = numbers.split(delimiter + "|\n");
 			return sum(numList);
@@ -38,8 +34,7 @@ public class App {
 		String negativeNumbers = "";
 
 		for (String number : numList) {
-			if (number.equals("")) {
-			} else if (negativeCheck(number)) {
+			if (negativeCheck(number)) {
 				if (negativeNumbers.equals(""))
 					negativeNumbers = number;
 				else
@@ -63,15 +58,4 @@ public class App {
 		return true;
 	}
 
-	private static int closingBracketIndex(String number) {
-
-		for (int i = 0; i < number.length(); i++) {
-
-			if (number.charAt(i) == ']') {
-				return i;
-			}
-		}
-		return 0;
-
-	}
 }

@@ -72,14 +72,6 @@ public class AppTest {
 	@Test
 	public void testLengthDelimiter() {
 		// Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
-		assertEquals(6, App.add("//[---]\n1---2---3"));
+		assertEquals(6, App.add("//[***]\n1***2***3"));
 	}
-	
-	@Test
-	public void testLengthDelimiter2() {
-		// Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
-		assertEquals(6, App.add("//[@@@@@]\n1@@@@@2@@@@@3"));
-	}
-	
-	
 }

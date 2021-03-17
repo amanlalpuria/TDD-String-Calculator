@@ -215,4 +215,47 @@ if there are multiple negatives, show all of them in the exception message.
 	}
 	```
 
+7. Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
 
+	Updated add function
+	```java
+	static int add(String numbers) {
+
+		if (numbers.equals("")) {
+			return 0;
+		} else {
+			// Regex to split the string with delimiter ","
+			String delimiter = ",";
+
+			// The if looks for the extra delimeters
+			// The condition is after // if there is anything and if after that
+			// there is a next line
+			// Skip the characters and select the numbers
+			if (numbers.matches("//(.*)\n(.*)")) {
+				delimiter = Character.toString(numbers.charAt(2));
+				if (delimiter.equals("[")) {
+					int closingBracketIndex = numbers.indexOf("]");
+					delimiter = numbers.substring(3, closingBracketIndex);
+				}
+				int nextLineIndex = numbers.indexOf("\n");
+				numbers = numbers.substring(nextLineIndex);
+			}
+			String numList[] = numbers.split(delimiter + "|\n");
+			return sum(numList);
+		}
+	}
+	```
+	Instead of '*' I have used '-' and '@' to test
+	```java
+	@Test
+	public void testLengthDelimiter() {
+		// Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
+		assertEquals(6, App.add("//[---]\n1---2---3"));
+	}
+	
+	@Test
+	public void testLengthDelimiter2() {
+		// Delimiters can be of any length with the following format: “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
+		assertEquals(6, App.add("//[@@@@@]\n1@@@@@2@@@@@3"));
+	}
+	```

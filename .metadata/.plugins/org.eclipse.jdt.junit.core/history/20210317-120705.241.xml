@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="string.calculator" tests="10" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.string.calculator.AppTest" incomplete="true">
+    <testcase name="testNegativeNumber" classname="com.string.calculator.AppTest" time="0.0"/>
+    <testcase name="testMultipleNegativeNumber" classname="com.string.calculator.AppTest" time="0.0"/>
+    <testcase name="testNumberGreaterThousand" classname="com.string.calculator.AppTest" time="0.0"/>
+    <testcase name="testDifferentDelimeter" classname="com.string.calculator.AppTest" incomplete="true"/>
+    <testcase name="testLengthDelimiter" classname="com.string.calculator.AppTest" incomplete="true"/>
+    <testcase name="testTwoString" classname="com.string.calculator.AppTest" incomplete="true"/>
+    <testcase name="testOneString" classname="com.string.calculator.AppTest" incomplete="true"/>
+    <testcase name="testEmptyString" classname="com.string.calculator.AppTest" incomplete="true"/>
+    <testcase name="testThreeNumbers" classname="com.string.calculator.AppTest" incomplete="true"/>
+    <testcase name="testNewLine" classname="com.string.calculator.AppTest" incomplete="true"/>
+  </testsuite>
+</testrun>

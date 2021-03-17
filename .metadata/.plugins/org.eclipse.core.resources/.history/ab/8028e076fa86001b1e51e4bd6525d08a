@@ -21,8 +21,9 @@ public class App {
 			if (numbers.matches("//(.*)\n(.*)")) {
 				delimiter = Character.toString(numbers.charAt(2));
 				if (delimiter.equals("[")) {
+//					int closingBracketIndex = closingBracketIndex(numbers);
 					int closingBracketIndex = numbers.indexOf("]");
-					delimiter = numbers.substring(3, closingBracketIndex);
+					delimiter = numbers.substring(3,closingBracketIndex);
 				}
 				int nextLineIndex = numbers.indexOf("\n");
 				numbers = numbers.substring(nextLineIndex);
@@ -38,8 +39,7 @@ public class App {
 		String negativeNumbers = "";
 
 		for (String number : numList) {
-			if (number.equals("")) {
-			} else if (negativeCheck(number)) {
+			if (negativeCheck(number)) {
 				if (negativeNumbers.equals(""))
 					negativeNumbers = number;
 				else
