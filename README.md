@@ -259,3 +259,60 @@ if there are multiple negatives, show all of them in the exception message.
 		assertEquals(6, App.add("//[@@@@@]\n1@@@@@2@@@@@3"));
 	}
 	```
+
+8. Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
+
+	Updated add function for multiple delimiter 
+	```java
+	static int add(String numbers) {
+
+		if (numbers.equals("")) {
+			return 0;
+		} else {
+			// Regex to split the string with delimiter ","
+			String delimiter = ",";
+			String delimiter2 = ",";
+
+			if (numbers.matches("//(.*)\n(.*)")) {
+				delimiter = Character.toString(numbers.charAt(2));
+				if (delimiter.equals("[")) {
+					int closingBracketIndex = numbers.indexOf("]");
+					delimiter = numbers.substring(3, closingBracketIndex);
+				}// //[*][%]\n1*2%3
+				if (numbers.matches("//\\[(.*)\\]\\[(.*)\\]\n(.*)")){
+					int firstClosingBracketIndex = numbers.indexOf("]")+1;
+					int secondClosingBracketIndex = numbers.indexOf("\n")-1;
+					delimiter2 = numbers.substring(firstClosingBracketIndex+1, secondClosingBracketIndex);
+					numbers = numbers.replaceAll("\\"+delimiter, delimiter2);
+					delimiter = delimiter2;
+				}
+				int nextLineIndex = numbers.indexOf("\n");
+				numbers = numbers.substring(nextLineIndex);
+			}
+			String numList[] = numbers.split("\\"+delimiter + "|\n");
+			return sum(numList);
+		}
+	}
+	```
+
+	Test case for the same
+	```java
+	@Test
+	public void testMultipleDelimiter() {
+		// Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
+		assertEquals(6, App.add("//[*][%]\n1*2%3"));
+	}
+	```
+
+9. make sure you can also handle multiple delimiters with length longer than one char
+
+	Handled the same in requirement 8
+
+	Test case
+	```java
+	@Test
+	public void testMultipleLengthDelimiter() {
+		//make sure you can also handle multiple delimiters with length longer than one char
+		assertEquals(6, App.add("//[---][%%%]\n1---2%%%3"));
+	}
+	```

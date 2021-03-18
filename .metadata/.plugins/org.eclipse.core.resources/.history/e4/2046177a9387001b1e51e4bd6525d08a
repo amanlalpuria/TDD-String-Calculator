@@ -20,18 +20,16 @@ public class App {
 				if (delimiter.equals("[")) {
 					int closingBracketIndex = numbers.indexOf("]");
 					delimiter = numbers.substring(3, closingBracketIndex);
-				}// //[*][%]\n1*2%3
-				if (numbers.matches("//\\[(.*)\\]\\[(.*)\\]\n(.*)")){
-					int firstClosingBracketIndex = numbers.indexOf("]")+1;
+				}
+				if (numbers.matches("//[(.*)][(.*)]\n(.*)")){
+					int firstClosingBracketIndex = numbers.indexOf("]");
 					int secondClosingBracketIndex = numbers.indexOf("\n")-1;
 					delimiter2 = numbers.substring(firstClosingBracketIndex+1, secondClosingBracketIndex);
-					numbers = numbers.replaceAll("\\"+delimiter, delimiter2);
-					delimiter = delimiter2;
 				}
 				int nextLineIndex = numbers.indexOf("\n");
 				numbers = numbers.substring(nextLineIndex);
 			}
-			String numList[] = numbers.split("\\"+delimiter + "|\n");
+			String numList[] = numbers.split(delimiter + delimiter2 + "|\n");
 			return sum(numList);
 		}
 	}

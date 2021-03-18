@@ -81,15 +81,5 @@ public class AppTest {
 		assertEquals(6, App.add("//[@@@@@]\n1@@@@@2@@@@@3"));
 	}
 	
-	@Test
-	public void testMultipleDelimiter() {
-		// Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
-		assertEquals(6, App.add("//[*][%]\n1*2%3"));
-	}
 	
-	@Test
-	public void testMultipleLengthDelimiter() {
-		// Allow multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
-		assertEquals(6, App.add("//[---][%%%]\n1---2%%%3"));
-	}
 }
